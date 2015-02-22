@@ -24,7 +24,8 @@
   EnableFeedbackService="false"
   LiveHelpServer="madcap"
   LiveHelpKey="XF0n0q-0B0oA2-1J7U4s-avfMYY-EW1Uiv-FNFP8K-ZJ/R9L-qXvCkw-q72/hS-EY/6cT-xL0g=="
-  AliasFile="/Project/Advanced/WH2/5AliasFile.flali">
+  AliasFile="/Project/Advanced/WH2/5AliasFile.flali"
+  DisableAutoSync="true">
   <PrintedOutput
     CollapseMargins="true" />
   <Destinations>
