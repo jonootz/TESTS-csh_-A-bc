@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>CSH Testing HTML5</title>
+<script type="text/javascript" src="csh.js"></script>
+</head>
+
+<body style="font-family: Arial; font-size: 12px;">
+
+
+<h1> HTML 5</h1>
+
+<h1>----Hyperlink Calls----</h1>
+
+
+<hr />
+<br />
+<a href="Default.htm#cshid=dogs" target="_blank">ID Name 1</a>
+<H4>Expected Result: Dogs\Dogs.htm (Navigation on Left)</H4>
+<hr/>
+
+<br />
+<a href="Default.htm#cshid=8" target="_blank">ID Name 2</a>
+<H4>Expected Result: Dogs\FireFox.htm (Navigation on Left)</H4>
+<hr/>
+
+<br />
+<a href="Default.htm#cshid=6" target="_blank">ID # </a>
+<H4>Expected Result: Misc\Owl.htm (Navigation On Left/Auto-Hide TOC/Red Topic Padding, Crazy top padding/Custom logo)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=Misc/llama.htm" target="_blank">Topic Link</a>
+<H4>Expected Result: Misc\Llama.htm (No Navigation Pane /No logo/No Search)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=8&skinName=5 RightToc" target="_blank">Skin Test 1</a>
+<H4>Expected Result: Dogs\Firefox.htm with Default Skin (Navigation on Right/Crazy Color/TOC only)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=Bookmark&skinName=5 HideNav" target="_blank">Skin Test 2</a>
+<H4>Expected Result: Bookmark to Topic.htm with HideNav Skin (Navigation on Left/Hidden/TOC, Index, Glossary)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=6&searchQuery=dogs" target="_blank">Search Test 1</a>
+<H4>Expected Result: Misc\Owl.htm with the term 'dogs' in the search pane (Navigation On Top/Auto-Hide TOC/Red Topic Padding) </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#searchQuery=llama&firstPick=true" target="_blank">Search Test 2</a>
+<H4>Expected Result: Misc\Llama.htm with the term 'llama' in the search pane (Navigation on Left/All Tabs/Icons only/Custom logo)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=Attack&searchQuery=Cow&firstPick=true" target="_blank">Search Test 3</a>
+<H4>Expected Result: Special\Ninja Attack!.htm with the term 'cow' in the search pane (Navigation on Left/All Tabs/Icons only/Custom logo)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=2&searchQuery=dogs&firstPick=true&skinName=5 HideNav" target="_blank">Search and Skin Test</a>
+<H4>Expected Result: dogs\dogs.htm (Navigation on Left/Hidden/TOC, Index, Glossary) </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=Poo" target="_blank">No topic assigned to ID test</a>
+<H4>Expected Result: Topic.htm (Navigation on Left/All Tabs/Icons only/Custom logo)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=0" target="_blank">Call to Root test</a>
+<H4>Expected Result: Root.htm (Navigation on Left/All Tabs/Icons only/Custom logo)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#" target="_blank">Null Test</a>
+<H4>Expected Result: Topic.htm (Navigation on Left/All Tabs/Icons only/Custom logo)</H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=" target="_blank">Null Test 2</a>
+<H4>Expected Result: Topic.htm (Navigation on Left/All Tabs/Icons only/Custom logo)</H4>
+<hr/>
+<br />
+
+<h2>----Merge Testing ----</h2>
+<hr/>
+<br/>
+
+<a href="Default.htm#cshid=1003" target="_blank">Call Child via Value test</a>
+<H4>Expected Result: Child Project Article 1.htm </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=Child4" target="_blank">Call Child via ID test</a>
+<H4>Expected Result: Child Project Article 2.htm </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=../Subsystems/Default/Content/Welcome.htm" target="_blank">Call Child via Topic Name</a>
+<H4>Expected Result: Child Project Welcome.htm </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=2013" target="_blank">Call Grand Child via Value test</a>
+<H4>Expected Result: Grand Child Project Email Policy.htm </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=GrandChild6" target="_blank">Call Grand Child via ID test</a>
+<H4>Expected Result: Grand Child Project General IT Polocies.htm </H4>
+<hr/>
+<br />
+
+<a href="Default.htm#cshid=../Subsystems/Default/Subsystems/Default/Content/Introduction.htm" target="_blank">Call Grand Child via Topic Name</a>
+<H4>Expected Result: Grand Child Project Introduction.htm </H4>
+<hr/>
+<br />
+
+
+<h1>----Java Script Calls----</h1>
+<hr />
+<br />
+
+<input type="button" value="Id #" onclick="MadCap.OpenHelp(2, null, null, null);" />
+<H4>Expected Result: Dogs\Dogs.htm (Navigation on Left) </H4>
+<hr />
+<br />
+
+<input type="button" value="ID Name" onclick="MadCap.OpenHelp( 'Attack', null, null, null);" />
+<H4>Expected Result: Special\Ninja Attack!.htm (Navigation on Left) </H4>
+<hr />
+<br />
+
+<input type="button" value="Topic Link" onclick="MadCap.OpenHelp( 'Misc/Llama.htm', '5 RightTOC', null, null );" />
+<H4>Expected Result: Misc\Llama.htm (Navigation on Right, TOC only) </H4>
+<hr />
+<br />
+
+<input type="button" value="Skin Test 1" onclick="MadCap.OpenHelp( 8, '5 HideNav', null, null );" />
+<H4>Expected Result: Dogs\FireFox.htm (Navigation is Hidden) </H4>
+<hr />
+<br />
+
+<input type="button" value="Skin Test 2" onclick="MadCap.OpenHelp( 'Bookmark', 'clean', null, null );" />
+<H4>Expected Result: Bookmark to Topic.htm (No Navigation Pane/No Logo/No Search) </H4>
+<hr />
+<br />
+
+<input type="button" value="Search Test 1" onclick="MadCap.OpenHelp( '0', null, 'Ninja', false );" />
+<H4>Expected Result: Root.htm with term 'Ninja' in the search pane (Navigation on Left) </H4>
+<hr />
+<br />
+
+<input type="button" value="Search Test 2" onclick="MadCap.OpenHelp( 0, null, 'Ninja', true );" />
+<H4>Expected Result: Ninja Attack!.htm with term 'Ninja' in the search pane (Navigation on Left) </H4>
+<hr />
+<br />
+
+<input type="button" value="Search Test 3" onclick="MadCap.OpenHelp( 'owl', null, 'Cow', true );" />
+<H4>Expected Result: Misc\Owl.htm with term 'Cow' in the search pane (Navigation is Hidden on left/Massive top padding/custom logo/red topic padding) </H4>
+<hr />
+<br />
+
+<input type="button" value="No topic assigned to ID test" onclick="MadCap.OpenHelp( 100, null, null, null );" />
+<H4>Expected Result: Topic.htm (Navigation on Left) </H4>
+<hr />
+<br />
+
+<input type="button" value="Null test" onclick="MadCap.OpenHelp( null, null, null, null );" />
+<H4>Expected Result: Topic.htm (Navigation on Left) </H4>
+<hr />
+<br />
+
+</body>
+</html>
