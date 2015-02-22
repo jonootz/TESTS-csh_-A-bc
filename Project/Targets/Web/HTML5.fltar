@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="New Target"
+  Comment="New Target was Dennis skin"
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
@@ -20,7 +20,7 @@
   ServerEnabled="false"
   CatalogName=""
   MasterToc="/Project/TOCs/Master.fltoc"
-  Skin="/Project/Skins/Sub Folder/HTML5 Skins!/Dennis.flskn"
+  Skin="/Project/Skins/Sub Folder/HTML5 Skins!/tripane.flskn"
   EnableFeedbackService="false"
   LiveHelpServer="madcap"
   LiveHelpKey="XF0n0q-0B0oA2-1J7U4s-avfMYY-EW1Uiv-FNFP8K-ZJ/R9L-qXvCkw-q72/hS-EY/6cT-xL0g=="
