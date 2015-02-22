@@ -7,4 +7,4 @@
   GlossaryTermConversion="marked"
   MakeFileLowerCase="true"
   ReplaceSpacesWithUnderscores="true"
-  MasterToc="/Project/TOCs/NewFolder/Master.fltoc"></CatapultTarget>
+  MasterToc="/Project/TOCs/NewFolder/subMaster.fltoc"></CatapultTarget>

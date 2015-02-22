@@ -40,7 +40,7 @@
       SectionNumberReset="continue"
       VolumeNumberReset="same"
       ChapterNumberReset="continue"
-      AbsoluteLink="file:///E:/CSH/CSHChild1/CSHChild1.flprj#5/HTML5"></TocEntry>
+      AbsoluteLink="file:///C:/git/CSHChild1/CSHChild1.flprj#5/HTML5"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="Root"
@@ -50,20 +50,9 @@
   <TocEntry
     Title="DeleteThis" />
   <TocEntry
-    Title="ChildLinux"
-    Link="../../../CSHChild1/CSHChild1.flprj#5/LinuxChild"
-    ReplaceMergeNode="false"
-    conditions="Default.PrintOnly"
-    AbsoluteLink="file:///E:/CSH/CSHChild1/CSHChild1.flprj#5/LinuxChild"></TocEntry>
-  <TocEntry
     Title="ChildWH1"
     conditions="Default.WH1"
     Link="../../../CSHChild1/CSHChild1.flprj#MyWebHelp"
     ReplaceMergeNode="true"
-    AbsoluteLink="file:///E:/CSH/CSHChild1/CSHChild1.flprj#MyWebHelp"></TocEntry>
-  <TocEntry
-    Title="ChildWHPlus"
-    Link="../../../CSHChild1/CSHChild1.flprj#11"
-    StartSection="false"
-    AbsoluteLink="file:///E:/CSH/CSHChild1/CSHChild1.flprj#11" />
+    AbsoluteLink="file:///C:/git/CSHChild1/CSHChild1.flprj#MyWebHelp"></TocEntry>
 </CatapultToc>

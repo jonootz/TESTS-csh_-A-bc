@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
-  Version="1"
+  Version="2"
   Comment=""
   Type="WebHelp"
   Destinations=""
@@ -20,7 +20,7 @@
   MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
   UseCustomTopicFileExtension="false"
   AliasFile="/Project/Advanced/MyAliasFile.flali"
-  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly] "
+  ConditionTagExpression="include[Default.WH1] exclude[Default.PrintOnly or Default.ScreenOnly] "
   Skin="/Project/Skins/Sub Folder/CSH Skin.flskn">
   <Destinations>
     <Destination
