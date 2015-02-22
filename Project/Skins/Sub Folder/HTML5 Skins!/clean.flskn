@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="1"
+  SkinType="WebHelp2"
+  Comment="HTML5 skin"
+  Anchors="Left,Top,Width,Height"
+  Width="450px"
+  Height="450px"
+  Top="100px"
+  Left="100px"
+  Bottom="0"
+  Right="0"
+  Tabs=""
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="false"
+  UseDefaultBrowserSetup="false"
+  AutoSyncTOC="true">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="Display">none</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="Display">none</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+  <WebHelpOptions
+    HideNavigationOnStartup="true" />
+  <Toolbar
+    EnableCustomLayout="true"
+    Buttons="" />
+</CatapultSkin>

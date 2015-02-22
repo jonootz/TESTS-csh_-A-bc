@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment="New Target"
+  Type="WebHelpMobile"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ReplaceSpacesWithUnderscores="true"
+  MakeFileLowerCase="true"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly or Default.WH1] "></CatapultTarget>

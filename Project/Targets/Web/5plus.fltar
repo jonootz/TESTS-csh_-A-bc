@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ServerEnabled="true"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.WH1] "
+  EnableFeedbackService="true"
+  LiveHelpKey="weja1-vune5-509e6-9e57f-4a21b-4004a-049d7-9f398"
+  Skin="/Project/Skins/Sub Folder/HTML5 Skins!/CSH Skin5.flskn"
+  LiveHelpServer="http://2008R2ENG:81/pulse">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Pulse.fldes" />
+  </Destinations>
+</CatapultTarget>

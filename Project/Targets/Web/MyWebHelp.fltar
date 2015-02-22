@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment=""
+  Type="WebHelp"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  InsertMOTW="false"
+  EnableFeedbackService="false"
+  LiveHelpServer="madcap"
+  LiveHelpKey="XF0n0q-0B0oA2-1J7U4s-avfMYY-EW1Uiv-FNFP8K-ZJ/R9L-qXvCkw-q72/hS-EY/6cT-xL0g=="
+  MakeFileLowerCase="false"
+  ReplaceSpacesWithUnderscores="false"
+  MoveOutputContentToRoot="false"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  GetLatestBeforeCompile="false"
+  GenerateAllSkins="true"
+  DisableAutoSync="false"
+  MinifyJavaScript="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  UseCustomTopicFileExtension="false"
+  AliasFile="/Project/Advanced/MyAliasFile.flali"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly] "
+  Skin="/Project/Skins/Sub Folder/CSH Skin.flskn">
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Feedback.fldes" />
+  </Destinations>
+</CatapultTarget>

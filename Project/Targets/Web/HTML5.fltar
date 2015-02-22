@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.WH1] "
+  ReplaceSpacesWithUnderscores="false"
+  MakeFileLowerCase="false"
+  UseCustomTopicFileExtension="false"
+  InsertMOTW="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  PreMergeSearchDatabase="false"
+  MinifyJavaScript="true"
+  ChunkSearchDatabase="true"
+  ChunkTOC="true"
+  ChunkIndex="true"
+  MoveOutputContentToRoot="false"
+  ServerEnabled="false"
+  CatalogName=""
+  MasterToc="/Project/TOCs/Master.fltoc"
+  Skin="/Project/Skins/Sub Folder/HTML5 Skins!/Dennis.flskn"
+  EnableFeedbackService="false"
+  LiveHelpServer="madcap"
+  LiveHelpKey="XF0n0q-0B0oA2-1J7U4s-avfMYY-EW1Uiv-FNFP8K-ZJ/R9L-qXvCkw-q72/hS-EY/6cT-xL0g=="
+  AliasFile="/Project/Advanced/WH2/5AliasFile.flali">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Pulse.fldes" />
+  </Destinations>
+</CatapultTarget>

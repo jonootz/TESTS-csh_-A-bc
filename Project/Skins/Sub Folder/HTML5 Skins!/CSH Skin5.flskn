@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="1"
+  SkinType="WebHelp2"
+  Comment="HTML5 skin"
+  Anchors="Width,Height"
+  Width="800"
+  Height="600"
+  Top="0"
+  Left="0"
+  Bottom="0"
+  Right="0"
+  Tabs="TOC,Index,Glossary,BrowseSequences,Community"
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="True"
+  UseDefaultBrowserSetup="True"
+  AutoSyncTOC="true"
+  Title="This should be the (*#@)*(&amp;^#W Default"
+  CommentsInTopic="true"
+  NavigationLinkTop="true"
+  NavigationLinkBottom="true"
+  DisplayNotificationOptions="false">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="maxell_maninchair_030408.jpg">H4sIAAAAAAAEAO29B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Iv7vf+v//o9+jd/sO8/Onv0av+av+Wv+Gn8A/fdr/N//8a/x25y+K85/jV/j7Oxbv8Zv8GuY5//+d3+Nk1/jN/j1fr1f/9f7dX+DX//X//V/7Md+g+Q3+q1+49/oN/wNf6Pf/rf4LX/T3+p3/h1+l1/wO/8Ov9PvlP5u44/Tj0Y//jv9TlsP7ox2dvf393+Xjx9+drD3eHxvfw9Afs0f+7Ef+41+w9/ot/uNf+Pfbu93/Z1+1733fv7vf+jX+M1/g1/j81/jL/+1f82Pfo1f6zf/NX/t3/zX/L//sV/jd/k1fo1f89f9NfkxKP+av9av/ev8ur/er/8b/FjyG1KDv/03+zV+rV/z1/61f61f59f+dX/dX+fXoW9/CX3/a/w6v/mv+1v8rrvHv95v+RPZr//RL/qt9v7gP/kv/g1+/Mnf/A//1q/+5f/pd7s3qf+QH0t+m9/2t/vtf4ff/Rd+vHXnW/v3P31w8PDRydPTZ59/++w7r9989ZPf/b1/n5+azvLzi3nx0027vrx6d/2DP/QP+8P/iD/yj/qj/5g/5U/90/70P+PP/LP+7D/nL/lL/7K//K/4K/+qv/qv+Vv+1r/tb/87/s6/6+/+e/6Rf/Qf+8f/iX/yn/qn/5l/5V/91/71f+Pf/Lf+7X/nP/5P/tP/7D//L/7L/+q//m/+5//ll/3yX/G//sr/7Vf97xjXr/lr/Nq/pnmi4/rNaVy/1q/z6/zav86vj3H9mr/WFRr85r/Or/u77v56v8XxT/z62S/6LT/a+4N/g9/qyZ/8F//N//CP/fi9V//Tbz2p/+Xkt/nd9v/j3/1/xtB4ZLcb2B/ytUZmB+bG9e/8Gr/Rr/1r0uT92r/5r/F7/Br/684f+mv/MfU/9mP/6V//rb/pn/hF3/ldfuM/9B/+i37d3/sf+uzXff7XfHbnz/6n/+rf6r/8df6cX+NPfjO9v/Xb/fc/8df+ZofTv/3+X/gX/Ma/xu/zD/333/5Ff8If8hf9Fv/JX/hf/Ebr//b3/E0vfrtf+df8Ld++9+rw1/wTf+ovffx3/Zf7v8af+nz3l/91//Zf+av+6N/ur/j3vvxD//x/5G8dj3eav/Df+IP2/+T/45/+iV/zt5/+Cb/4J/+zn/jdfuIP+53+gv/sV/4Nd5Z/9ve//R/9oX/Of/Pf/w3/2N/0Yz/2D33yd/1n/8kf9Fv84hd//W/xK3/1P/gff/UH/zq/02/yS/+0P/Wn/+d/6p/7M/673+B3+m3/71/j1/w/iz/qV/06f+qf9yv/ol//D9p7939+K/91/qZ/9Nf4NR7+dv/NT6fH97/1J/8F818r/6//1V/+V/9J/+nv9Jv+M3/J63/y+b/6J/2y3/N3+M1/87/lj/kjfuGv+sU/8Xv+Vj/+Sw//kz//71v+p3/OP/8nlH/jX3733/kNPpv/2j/x+178OX/27LNPxncefPrgq7/qP/8d/+Y/59f4e/+L//kn9v/Sj//6p//C4e/yT/1rv8U//Yf+ir/oN/z9/oB//1/7V/++//kff1nUxZ/4ybf+kH/wX/iD7v5t/97v8M/+vX/3r/3jVy/+tX/iz/vT/su//vz3+31/s7/sD/13/5hf44/5L/6z3+a3/4V/61/+d/32//Av/Iv/jObv/fU/+yXf+uv+1N/kF/0hv+lv/xf9hp+8u/cnnR39a//lv/FX/rY7P/W3/YX/1f/1/G94/Tv/Pr/Pr/G7/cpf/Y9N//KLf+wXFJ8+/YP+9//l1/hdXv+7f/tP/uv//b/zz/xev8/FX/DvPPxN/oBv/3P/zW//5zz7E3/n/z2//t3+pV/vf/kP//HRH/Tp7/jnNT/5K37n3/u//qntf/0/+23++sOT3/4X/VZv/83/8E/4g9ZH/9C/+Rd+7+3fc/Xv/IKH60++d/kn/q5/59/9j/xJq2e/6F988e+9+alf+cf99f/XP/8b/Q7nf8tv/71P6r/5n/j2n3HvT/ru6OC//xf//l/j9d/5v/2Vf/0/+tdc/48P/txf58++Tn/z/+Ov+vv/jl/+n/6H/8df+Pv8T3/lH/PX/31f/JX/51/x73/nv09+p1/wz/3i3+Wf/Q//0N//s9/39/lnx3/Gn/o7/md/+m/1h/07f8z3/tl/6vCrP/HX+Y1+7T/hN/id/o1/8g/b/79/jd/q+Z/y7/7Xv8fib/07/95f4+//537Rn7730X+Z/An/+Jtf8d99fvxf/56/y+/53/wDv+u/2n7y2/49/9ryX/nt/tODb/0G4y//op/4p3+P/+vv+2P+1r/4v3n10//O7Lt/Y/7Zn/nn/il/07/3Bxz9e//Tl3/F5wd/4+P/6a/8IxbtH/9T/+G/+D/98b/6O7//H//kv/gfPvmD/vj/8z/5i/6g3+PX+Pbf+PL3+w/+/vmv9a/8Tsmd3+w/+onf83f66r/4y/6NP+dnfmXya+//xN/6B/3iP+ne7zf7pTv/wZ938e2/81/82/7K3+Wf+Xu+eP3mX/jT1//ir/fp7/9XnL77RZ/9vS9//b/q8//5T/gfHz56+nv8Yf/k//HJ3/M//ZF//Hf/sf/1f/kH/6R/43/5R/6hg38v+V8O/uF/4cv/9I/5Vf/eL6jf/itHv933r//Af+fH/q4/6Du/y7/0L/36f+df/k/8nr/Ov/oLft8/9J+fnPzg0z/0z/sT//rH/97/ePDr/UH7z/+9P/i//s6/+jv//W/Tf+83+/f+wr/89/4t/o+//xef/0Ef/zl/wO/5D/+3/95P5v/YX/xn/rf//dNf9jv9iv/z7aP/Jv/2P3vxa/xG/8Mv/5X7v+ZP/g//w2/48l/5ff+ZP/mv/Gt/wa978l/8k6u/9y9u/+Tf9Nf8k//O3+j/fPtP/R9f/PX//F/73/yNu+e/2R/3R/1rv8XOX/Y//+/TX/HX/btfPPlv/pnf/9P/4OrzX/GT/+R/9Evmv/a/sf5nZ3/33/T9f/Pub/hj3/1nf82/6W/4L//wX+d3+i//6n/yr/ypX/b233/yf/0T/8Mv/n1+i/9g9sf/M7/en/Fv/y7p1T/92/+X/+b9n/4f//Ff+ehP+FP/10/+qX/pb/mbftG3/rhf8Gv+t//uP/hf/97/5h+T/msff/sfePr7/Cb/0t//a/yLv9Wv+fud/UZ/w7/4n//ho/rJL/8/7vw1f/3ftfq3/9ffevVT/+K7p3/S7/k//C+7v+6PP7n+tX+3P/Ef/Qv/hb9269WP/W6/+je62P81/+q/4qf/zr/np36Xv+Wf/B3+jH94/D998nf+F8d/w9/45H/+jf+Dv/Tqf/0lT/6X6tEXf/I/fOdXPS1/n2e/56/xm/69f+8v+xt+4ze/4B/8y6v/bfIf/Phf971/5p/9e//ZP/l3/At/5b/xBx39GX/wr/w7nu28+Pz+8tN/8pd+kf+jW//+P/k3Lv/0+s7Rnz//tX/PT3/d3/r3Pvsnf+L013j3S//SO7/6k1/+T//kT/yKH/8T/9vf7/f+Jbu/36/+63/qv/mn/8rn/8L//pv/Bn/u//V7/fZ/8MF/+bv8t7/pX/7ux/+G3+5f+rWP/4u/98tf88Xkz/jv/oZf9L/M/uBf8TfsfvfP+0/+3v/xj/iT/sN/tvmlf8fe7/2Xlk/+w7d/8H/+6/+p/+r0b/g9furX+B//+//h1z79u36t3+Mv/31+n3/kL7j3D//V07/9f976nb4///X/r3/vr/xdfvWrP+IP/cf+mXd/97908H//Gn/l2f/9a/xv//mv8eCf/92mH//4vzb5K/+Ekz+u+Vf/jb/0e3/gb/G3/Kn/65/4m/55f+C/+uf9h//H97/9N/1vf9av+cf++b8+abZf+H//Gv/JX/Vr/q1/5ZM/8J/4u/7G3/mn/+9fI/uX/5xfZ/Lx3/Orftt/+w/8o/6v3/eX/sK/9/pf/cfu/PbX1f7v/tWv86cs8l/j1/y/f41f62/8Tf/nX/rXN3/N//ZHXP1df86/c/wb/C/Tt9WvyH+9b3/yb/4NZ7/H7//Tv8Z/+fvu/tP/47/x9/6z/+Af8a/8ub/d7/43/13/+L/4p/0Vv/df8V9977c//N7f+Z/+vv/hH/HL/+y//W/8zf+tf+sf+y3vbp3/sl/zW7/1L53+Xb/JL/qDPv9Pf7//bnH/f/11/tw//rf68/7L/+uzv+y3+jX/o99i/jv8fXv71V/x+/02v9/R7/3b/8H/+2+289Pf++c/fvX2n/7tin/z7zp4+On/+F/d+3f+uv/tb3r+F3zyr/0Z09/lz/qFh//HX/Tk4tf+ix7/J3/z33L8H/3J/9u/9Ov+HX/Pv77/b83+1f/j3/7v/9LR1T/xYy//sT/4z/vff/lv/fTq//41fofLs//mn/wTX33xa/xOv+iP+yVbv+Zv9Rf+fp998hf9T//+P/Un/sQfvffg3l9Bo/yZn/wt/tC/8y9vf8Fv8Uc8vP9X/Qcv//K/9Fv/8q/36/zx/+6/9hv9Cf/n/Nf+D//7/J/6df68r/63f+/it/9rfrOTHzz6vfL/7cl/+H989b2nf/9v/Kdu/43/8W/5B/7Pb37Ny08PHv/LX/zxy1/rl/1uv8sfdvF/zP+i3/QX/mu/9Bf+9NV3/uXf+NG/c/Dnf+dP/rt/nz/q8S/4zm/6y/7b3++7v/tf9u/+if/M3//lr/HL/5I/5tc4vnj4OP2/f41/4K/9V45+h9/rt/lj/9f/9s/9d//ZX3z+Z/70R7/Xr/3P/12/ydmv+sGaGv3y0//5J/+cP/C/uPsHfP5X/q/lP/h/fPXg//otfsmDy9/jb9//Zf/3r7H6t//A/+2v2fqLfuy3/cd/hz/gd/lffst/9f/8n//Kf+73+Os/effX/l5//G/46V958Qfd+8f/uL//H/wdtv6i3/Th//zgj/sVf/7Vi7/wxf/1L/5eW//ZP/N3/tt//u918C/+Gn/z41/7P/y1/91/4PO/4NM/9Qd/aPP01/gnf+0VEYzaP/uX/r4v/+Mvfr3f8OF/+rf8Cdun2z955/x7v83v/u/+9P/w8a/8tx7++N/wybv/49W//M/8st/1n/z7/9A/8H/+d6j5R//z9v/xU3/lH/U//o9/0eFf+ud8/x/67z/5136Tf/vg//gX/42/pfnj/uXTX+PRnd/i49/0o1/v+f/xj/7av8df9Xv8M3/D//k3/PN/1p86+/bv8d//Vf/Xd7b+kj9ofPLXFf/z7/r6L/3ewa/4U/+L+9WX/+Zf99/f/+3+h//4b/rb/vD/dPFP/QM/+R/9Bq//yf/k27/HH/5bvfz1v/+7/OPbZ7/nP/aTF//tb/kH/vG/zx/7n/z1/+vnf/Zv/Ff9in/7t/+//raf+D1/x0//wN/s3/lPPvovXv0D/8ju//1r/GP/8ulv9Wv+3//2/wOC7btRDwsAAA==</Resource>
+    </Resources>
+    <Styles>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('maxell_maninchair_030408.jpg')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="Height">65px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Tab">
+        <Properties>
+          <Property
+            Name="NavigationTabLayout">TextThenImage</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Panel">
+        <Classes>
+          <StyleClass
+            Name="Community">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 1px #ff00ff</Property>
+              <Property
+                Name="BorderRight">solid 1px #ff00ff</Property>
+              <Property
+                Name="BorderBottom">solid 1px #ff00ff</Property>
+              <Property
+                Name="BorderLeft">solid 1px #ff00ff</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="TopicRatings">
+            <Properties>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="TopicRatingsEmpty">
+            <Properties>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Resources>
+          <Resource
+            Name="maxell_maninchair_030408.jpg">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</Resource>
+        </Resources>
+        <Styles>
+          <Style
+            Name="Logo">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('maxell_maninchair_030408.jpg')</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Header">
+            <Properties>
+              <Property
+                Name="Height">65px</Property>
+            </Properties>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+  <WebHelpOptions
+    NavigationPanePosition="Left"
+    NavigationPaneWidth="299" />
+  <Toolbar
+    EnableCustomLayout="false"
+    Buttons="Print|ExpandAll|RemoveHighlight|Separator|TopicRatings|Separator|EditUserProfile|Filler|PreviousTopic|CurrentTopicIndex|NextTopic" />
+</CatapultSkin>

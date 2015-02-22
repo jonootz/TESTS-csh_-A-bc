@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment="Microsoft HTML Help Target"
+  Type="HtmlHelp"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="true"
+  InsertMOTW="false"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly or Default.WH1] "
+  EnableFeedbackService="false"
+  LiveHelpServer="http://pulsetest/pulse"
+  LiveHelpKey="ollm1-aux85-0bb26-dda58-4db9b-c3232-4464a-0baa0"
+  Skin="/Project/Skins/Sub Folder/CSH Skin.flskn"
+  ReplaceSpacesWithUnderscores="true"
+  MakeFileLowerCase="true"></CatapultTarget>

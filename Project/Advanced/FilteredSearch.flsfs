@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="Dog Llama Owl"
+    Concepts="Dog;Llama;Owl"
+    Comment="Does this Comment show up anywhere usefull? I want some pizza."></SearchFilter>
+</CatapultSearchFilterSet>

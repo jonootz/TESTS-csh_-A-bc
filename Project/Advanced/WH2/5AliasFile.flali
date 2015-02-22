@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile conditions="Default.PrintOnly">
+    <Map Name="dogs" Link="/Content/Dogs/Dogs.htm" />
+    <Map Name="owl" Link="/Content/Misc/Owl.htm" Skin="/Project/Skins/Sub Folder/HTML5 Skins!/semiclean.flskn" />
+    <Map Name="llama" Link="/Content/Misc/Llama.htm" Skin="/Project/Skins/Sub Folder/HTML5 Skins!/clean.flskn" />
+    <Map Name="Fox" Link="/Content/Dogs/FireFox/FireFox.htm" />
+    <Map Name="Bookmark" Link="/Content/Topic.htm#Here" Skin="/Project/Skins/Sub Folder/HTML5 Skins!/5 HideNav.flskn" />
+    <Map Name="Attack" Link="/Content/Special/Ninja Attack!.htm" />
+    <Map Name="Root" Link="/Content/Root.htm" />
+</CatapultAliasFile>

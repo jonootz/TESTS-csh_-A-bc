@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="DotNetHelp"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="true"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly or Default.WH1] "
+  EnableFeedbackService="false"
+  LiveHelpKey="gmrw1-pil69-d122f-57389-4c979-6a2ac-71131-20354"
+  LiveHelpServer="http://2008R2ENG/pulse"
+  MasterToc="/Project/TOCs/NewFolder/Master.fltoc"></CatapultTarget>

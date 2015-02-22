@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment="MadCap WebHelp Plus Target"
+  Type="WebHelpPlus"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  CatalogName="SSLTestSite"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly or Default.WH1] "
+  EnableFeedbackService="true"
+  LiveHelpServer="http://2008R2ENG:81/pulse"
+  LiveHelpKey="weja1-vune5-509e6-9e57f-4a21b-4004a-049d7-9f398">
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Feedback.fldes" />
+  </Destinations>
+</CatapultTarget>
