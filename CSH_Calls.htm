@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>CSH Testing</title>
+<script type="text/javascript" src="Default.js"></script>
+</head>
+
+<body style="font-family: Arial; font-size: 12px;">
+
+<h1> WebHelp 1.0 </h1>
+<h1>----Hyperlink Calls----</h1>
+
+
+<hr />
+<br />
+<a href="Default_CSH.htm#dogs" target="_blank">ID Name 1</a>
+<H4>Expected Result: Dogs\Dogs.htm (Navigation on Right)</H4>
+<hr/>
+
+<br />
+<a href="Default_CSH.htm#8" target="_blank">ID Name 2</a>
+<H4>Expected Result: Dogs\FireFox.htm (Navigation on right, TOC pane only)</H4>
+<hr/>
+
+<br />
+<a href="Default_CSH.htm#6" target="_blank">ID # </a>
+<H4>Expected Result: Misc\Owl.htm (Navigation Hidden)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#Misc/llama.htm" target="_blank">Topic Link</a>
+<H4>Expected Result: Misc\Llama.htm (Navigation on Right)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#8|Default" target="_blank">Skin Test 1</a>
+<H4>Expected Result: Dogs\Firefox.htm with Default Skin (Navigation on Top)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#Bookmark|HideNav" target="_blank">Skin Test 2</a>
+<H4>Expected Result: Bookmark to Topic.htm with HideNav Skin (Navigation Pane will be hidden)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm?dogs#6" target="_blank">Search Test 1</a>
+<H4>Expected Result: Misc\Owl.htm with the term 'dogs' in the search pane (Navigation Hidden) </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm?llama|FirstPick#0" target="_blank">Search Test 2</a>
+<H4>Expected Result: Misc\Llama.htm with the term 'llama' in the search pane (Navigation on Right)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm?Cow|FirstPick#Attack" target="_blank">Search Test 3</a>
+<H4>Expected Result: Special\Ninja Attack!.htm with the term 'cow' in the search pane (Navigation on Right)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm?dogs|FirstPick#2|HideNav" target="_blank">Search and Skin Test</a>
+<H4>Expected Result: dogs\dogs.htm (Navigation Pane is Hidden) </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#Poo" target="_blank">No topic assigned to ID test</a>
+<H4>Expected Result: Topic.htm (Navigation on Right)</H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#0" target="_blank">Call to Root test</a>
+<H4>Expected Result: Root.htm </H4>
+<hr/>
+
+<a href="Default_CSH.htm#" target="_blank">Null test</a>
+<H4>Expected Result: Topic.htm </H4>
+<hr/>
+<br />
+
+
+<h2>----Merge Testing ----</h2>
+<hr/>
+<br/>
+
+<a href="Default_CSH.htm#1003" target="_blank">Call Child via Value test</a>
+<H4>Expected Result: Child Project Article 1.htm </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#Child4" target="_blank">Call Child via ID test</a>
+<H4>Expected Result: Child Project Article 2.htm </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#../Subsystems/Default/Content/Welcome.htm" target="_blank">Call Child via Topic Name</a>
+<H4>Expected Result: Child Project Welcome.htm </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#2013" target="_blank">Call Grand Child via Value test</a>
+<H4>Expected Result: Grand Child Project Email Policy.htm </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#GrandChild6" target="_blank">Call Grand Child via ID test</a>
+<H4>Expected Result: Grand Child Project General IT Polocies.htm </H4>
+<hr/>
+<br />
+
+<a href="Default_CSH.htm#../Subsystems/Default/Subsystems/Default/Content/Introduction.htm" target="_blank">Call Grand Child via Topic Name</a>
+<H4>Expected Result: Grand Child Project Introduction.htm </H4>
+<hr/>
+<br />
+
+
+<h1>----Java Script Calls----</h1>
+<hr />
+<br />
+
+<input type="button" value="Id #" onclick="FMCOpenHelp(2, null, null, null);" />
+<H4>Expected Result: Dogs\Dogs.htm (Navigation on Right) </H4>
+<hr />
+<br />
+
+<input type="button" value="ID Name" onclick="FMCOpenHelp( 'Attack', null, null, null);" />
+<H4>Expected Result: Special\Ninja Attack!.htm (Navigation on Right) </H4>
+<hr />
+<br />
+
+<input type="button" value="Topic Link" onclick="FMCOpenHelp( 'Misc/Llama.htm', 'Test', null, null );" />
+<H4>Expected Result: Misc\Llama.htm (Navigation on Right, TOC only) </H4>
+<hr />
+<br />
+
+<input type="button" value="Skin Test 1" onclick="FMCOpenHelp( 8, 'HideNav', null, null );" />
+<H4>Expected Result: Dogs\FireFox.htm (Navigation is Hidden) </H4>
+<hr />
+<br />
+
+<input type="button" value="Skin Test 2" onclick="FMCOpenHelp( 'Bookmark', 'Default', null, null );" />
+<H4>Expected Result: Bookmark to Topic.htm (Navigation on Top) </H4>
+<hr />
+<br />
+
+<input type="button" value="Search Test 1" onclick="FMCOpenHelp( '0', null, 'Ninja', false );" />
+<H4>Expected Result: Root.htm with term 'Ninja' in the search pane (Navigation on Right) </H4>
+<hr />
+<br />
+
+<input type="button" value="Search Test 2" onclick="FMCOpenHelp( 0, null, 'Ninja', true );" />
+<H4>Expected Result: Ninja Attack!.htm with term 'Ninja' in the search pane (Navigation on Right) </H4>
+<hr />
+<br />
+
+<input type="button" value="Search Test 3" onclick="FMCOpenHelp( 'owl', null, 'Cow', true );" />
+<H4>Expected Result: Misc\Owl.htm with term 'Cow' in the search pane (Navigation is Hidden) </H4>
+<hr />
+<br />
+
+<input type="button" value="No topic assigned to ID test" onclick="FMCOpenHelp( 100, null, null, null );" />
+<H4>Expected Result: Topic.htm (Navigation on Right) </H4>
+<hr />
+<br />
+
+<input type="button" value="Null Test" onclick="FMCOpenHelp( null, null, null, null );" />
+<H4>Expected Result: Topic.htm (Navigation on Right) </H4>
+<hr />
+
+</body>
+</html>
