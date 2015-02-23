@@ -33,14 +33,14 @@
     Link="/Content/Misc/Llama.htm">
     <TocEntry
       Title="Child"
-      Link="../../../CSHChild1/CSHChild1.flprj#5/HTML5"
+      Link="../../../CSHChild1/CSHChild1.flprj"
       conditions="Default.ScreenOnly"
       ReplaceMergeNode="true"
       StartSection="false"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
       ChapterNumberReset="continue"
-      AbsoluteLink="file:///C:/GIT/CSHChild1/CSHChild1.flprj#5/HTML5"></TocEntry>
+      AbsoluteLink="file:///C:/GIT/CSHChild1/CSHChild1.flprj"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="Root"
